@@ -1,0 +1,65 @@
+body{
+	background-image:url('pantai5.jpg');
+}
+.loginform{
+	width: 320px;
+	height: 420px;
+	background: #000000;
+	color:#ffffff;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	/*padding-top: 70px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	padding-left: 30px;*/
+	padding: 70px 30px;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	padding: 0 0 20px;
+	font-size: 16pt;
+}
+.loginform label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginform input{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.loginform input[type="email"], input[type="password"]{
+	border:none;
+	border-bottom:1px solid #ffffff;
+	background: transparent;
+	outline: none;
+	color: #ffffff;
+	height: 40px;
+	font-size: 14pt;
+}
+
+.loginform input[type="submit"]{
+	height: 40px;
+	background-color:#ffea00;
+	font-size: 14pt;
+	border: none;
+	border-radius: 20px;
+}
+
+.loginform input[type="submit"]:hover{
+	background-color:  #ffc107;
+	color:#ffffff;
+}
+.avatar{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;	
+	position: absolute;
+	top: -50px;
+	left:calc(50% - 50px);
+}
